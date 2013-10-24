@@ -26,7 +26,7 @@
 }
 
 .banner.home {
-    background-image: url('../img/alley.jpg');
+    background-image: url('../../img/alley.jpg');
     background-position: 49% 49%;
     background-repeat: no-repeat;
     background-size: cover;

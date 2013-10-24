@@ -6,11 +6,23 @@
  * ## Usage
  * Add the namespace class to the element to include it
  *
- *     <div class="todo">
+ *     <div class="child">
  *
  */
 
+.child ul {
+    margin: 0;
+    padding: 0;
+}
+
 .child li {
-    text-decoration: line-through;
-    color: grey;
+    list-style: none;
+    color: #333333;
+    background-color: #eeeeee;
+    margin: 0 0 5px 0;
+    padding: 5px;
+}
+
+.child input {
+    padding: 5px;
 }

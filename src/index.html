@@ -5,11 +5,31 @@
     <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>AngularJS Websockets Example</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="css/base/normalize.css" />
+    <link rel="stylesheet" href="css/base/reset.css" />
+    <link rel="stylesheet" href="css/base/layout.css" />
+    <link rel="stylesheet" href="css/base/themes.css" />
+    <link rel="stylesheet" href="css/modules/Banner.css" />
+    <link rel="stylesheet" href="css/modules/Nav.css" />
+    <link rel="stylesheet" href="css/modules/Panel.css" />
+    <link rel="stylesheet" href="css/modules/Child.css" />
 </head>
-<body>
-
-    <div ng-view></div>
-
+<body class="default flow-xs">
+    
+    <div class="row full light banner bg1">
+        <div class="col w1of1">
+            <h1 class="c1">AngularJS</h1>
+            <h2>Example Chat App</h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col w1of1">
+            <div ng-view></div>
+        </div>
+    </div>
+    
     <script src="http://cdn.sockjs.org/sockjs-0.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
     <script src="js/App.js"></script>
