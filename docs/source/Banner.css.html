@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>The source code</title>
+  <link href="../resources/prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="../resources/prettify/prettify.js"></script>
+  <style type="text/css">
+    .highlight { display: block; background-color: #ddd; }
+  </style>
+  <script type="text/javascript">
+    function highlight() {
+      document.getElementById(location.hash.replace(/#/, "")).className = "highlight";
+    }
+  </script>
+</head>
+<body onload="prettyPrint(); highlight();">
+  <pre class="prettyprint lang-js"><span id='css-assets-Banner'>/**
+</span> * @class css.assets.Banner
+ *
+ * css styles specific to this module only
+ *
+ * ## Usage
+ * Add the namespace class to the element to include it
+ *
+ *     &lt;div class=&quot;banner&quot;&gt;
+ *
+ */
+
+.banner .col {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner h1 {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+.banner.home h1 {
+    padding-top: 300px;
+    margin-top: -300px;
+}
+
+.banner.home {
+    background-image: url('../img/alley.jpg');
+    background-position: 49% 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner.home .col {
+    padding-top: 300px;
+    padding-bottom: 50px;
+    text-shadow: 1px 1px 7px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+}</pre>
+</body>
+</html>

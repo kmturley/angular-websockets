@@ -1,0 +1,16 @@
+/**
+ * @class css.assets.Child
+ *
+ * css styles specific to this module only
+ *
+ * ## Usage
+ * Add the namespace class to the element to include it
+ *
+ *     <div class="todo">
+ *
+ */
+
+.child li {
+    text-decoration: line-through;
+    color: grey;
+}

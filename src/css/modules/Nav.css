@@ -1,0 +1,30 @@
+/**
+ * @class css.assets.Nav
+ *
+ * css styles specific to this module only
+ *
+ * ## Usage
+ * Add the namespace class to the element to include it
+ *
+ *     <div class="nav">
+ *
+ */
+
+.nav {
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    padding: 10px 15px 15px 15px;
+}

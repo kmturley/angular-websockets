@@ -1,0 +1,15 @@
+/**
+ * @class css.assets.Panel
+ *
+ * css styles specific to this module only
+ *
+ * ## Usage
+ * Add the namespace class to the element to include it
+ *
+ *     <div class="panel">
+ *
+ */
+
+.panel .item {
+    padding: 20px;
+}
